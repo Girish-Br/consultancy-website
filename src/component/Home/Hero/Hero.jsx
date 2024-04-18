@@ -24,7 +24,7 @@ const Hero = () => {
                             color="text.primary"
                             sx={{ fontWeight: 700 }}
                         >
-                            Easy Consulting{' '} <br />
+                            SANGAM Consulting{' '} <br />
                             Start Your {' '}
                             <Typography
                                 color={'primary'}

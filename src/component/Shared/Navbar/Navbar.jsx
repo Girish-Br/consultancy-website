@@ -35,10 +35,10 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto mainNav" activeKey="/home">
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link as={Link} to="/" className="nav-link" onClick={() => window['scrollTo']({ top: 0, behavior: 'smooth' })}>Home</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
+                        </Nav.Item> */}
+                        {/* <Nav.Item>
                             <Nav.Link href="#services" className="nav-link">Services</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
@@ -60,7 +60,7 @@ const NavBar = () => {
                                         <button className="loginBtn">Login</button>
                                     </Link>
                             }
-                        </Nav.Item>
+                        </Nav.Item> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
